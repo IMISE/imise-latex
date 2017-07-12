@@ -17,7 +17,9 @@ Abschlussarbeiten dürfen nicht mit Ringbindung gedruckt werden, sie können z.B
 Die Eigenständigkeitserklärung muss unbedingt vorhanden und unterschrieben sein. 
 
 ### Weitere Informationen
-Anträge und Richtlinien zu Abschlussarbeiten der Informatik finden Sie [beim Prüfungsamt](http://studium.fmi.uni-leipzig.de/fileadmin/Studienbuero/documents/Formulare/HinweiseAbschlussarbeit.pdf).
+
+* [Anträge und formale Richtlinien zu Abschlussarbeiten der Informatik beim Prüfungsamt](http://studium.fmi.uni-leipzig.de/fileadmin/Studienbuero/documents/Formulare/HinweiseAbschlussarbeit.pdf).
+* [Ablauf und Betreuung im Projektbereich MIG des IMISE](http://www.imise.uni-leipzig.de/Lehre/MedInf/Abschlussarbeiten/Ablauf.jsp)
 
 
 ## English
