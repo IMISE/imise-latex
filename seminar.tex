@@ -11,11 +11,10 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{aurl}
-\usepackage{microtype}
+%\usepackage{microtype}%optional, looks better but caused errors on MiKTeX
 \usepackage{natbib}
 \usepackage{hyperref}
 \PassOptionsToPackage{pdfborder={0 0 0}}{hyperref} %Für finale gedruckte Ausgabe, ohne hervorgehobene Links
-\usepackage{hypernat}
 \daurl{ob}{http://www.snik.eu/ontology/ob/}
 \daurl{bb}{http://www.snik.eu/ontology/bb/}
 \daurl{ciox}{http://www.snik.eu/ontology/ciox/}
@@ -217,7 +216,6 @@ In der Diskussion kann auch die Kritik des Autors an dem stehen, was er in der L
 Außerdem soll ein Ausblick gegeben werden, welche weiteren Fragestellungen noch bearbeitet werden sollten.
 }
 
-\renewcommand{\bibpreamble}{
 \todo{
 Zentrale Literatur, die den untersuchten Artikeln zugrunde liegt, können Sie im bibtex-Format in die seminar.bib einfügen und dann im Text zitieren, wodurch diese automatisch in das Literaturverzeichnis übernommen werden.
 Sie können auch weitere referierte Veröffentlichungen (wissenschaftliche Zeitschriften (auch elektronisch), Bücher) in die Erarbeitung einbeziehen zitieren.
@@ -227,7 +225,6 @@ Weitere Informationen zum Thema der Literaturrecherche finden sich in den \href{
 \paragraph{Beispielzitierungen}
 \citet{his} beschreiben ein Verfahren zur X von Y auf Basis von Z.
 Alternativ: X von Y lässt sich auf Basis von Z ermitteln~\citep{his}.
-}
 }
 
 \bibliographystyle{natdin}%options: apalike abbrvnat plainnat natdin
