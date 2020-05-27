@@ -21,6 +21,13 @@ Die Eigenständigkeitserklärung muss unbedingt vorhanden und unterschrieben sei
 * [Anträge und formale Richtlinien zu Abschlussarbeiten der Informatik beim Prüfungsamt](http://studium.fmi.uni-leipzig.de/fileadmin/Studienbuero/documents/Formulare/HinweiseAbschlussarbeit.pdf).
 * [Ablauf und Betreuung im Projektbereich MIG des IMISE](http://www.imise.uni-leipzig.de/Lehre/MedInf/Abschlussarbeiten/Ablauf.jsp)
 
+### Installation
+Benötigt eine LaTeX-Installation mit Standardpaketen.
+Minimalbeispiel auf Arch Linux:
+
+    sudo pacman -S texlive-core texlive-science texlive-latexextra
+    latexmk -pdf seminar.tex
+    latexmk -pdf thesis.tex
 
 ## English
 These are unofficial templates to get you started in doing your seminar paper, bachelor or master thesis. If there are differing requirements, you need to adapt these templates but at least for seminar papers this probably isn't the case.
