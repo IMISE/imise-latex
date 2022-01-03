@@ -11,6 +11,9 @@ Bei Seminararbeiten ist aber erfahrungsgemäß keine Anpassung nötig.
 ### Abschlussarbeiten
 Gemeint sind Bachelor- Diplom- und Masterarbeiten.
 Abschlussberichte von Seminaren zählen zu Seminararbeiten.
+Sie können diese Vorlage zwar für Abschlussarbeiten benutzen, wir empfehlen aber die wesentlich schönere [ClassicThesis-Vorlage](https://github.com/IMISE/imise-classicthesis).
+Diese Vorlage ist eine Alternative für LaTeX-Anfänger, denen die ClassicThesis-Vorlage zu kompliziert ist.
+Ich empfehle trotzdem, erst einmal die ClassicThesis-Vorlage auszuprobieren.
 
 #### Weitere Vorraussetzungen 
 Abschlussarbeiten dürfen nicht mit Ringbindung gedruckt werden, sie können z.B. eine Leim- oder Klemmbindung verwenden.
