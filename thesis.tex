@@ -1,16 +1,15 @@
 \documentclass[headsepline,titlepage,twoside,12pt]{report}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage[a4paper,top=4cm,bottom=3cm,left=4cm,right=3cm]{geometry}
-\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{tabularx}
 \usepackage{tabulary}
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{csquotes}
-%\usepackage{microtype}%optional, looks better but caused errors on MiKTeX
+\usepackage{microtype}% optional, looks better but can be commented out if it causes errors e.g. on MiKTeX
 \usepackage{natbib}
 \usepackage{hyperref}
 \usepackage{cleveref}
@@ -19,12 +18,12 @@
 \author{Vorname Name}
 
 \begin{document}
+
 \allowdisplaybreaks%Mathe darf auch umbrechen
 
 \begin{titlepage}
 \thispagestyle{empty}
 \begin{center}
-
 
 {\large UNIVERSITÄT LEIPZIG\\[1mm]}
 FAKULTÄT FÜR MATHEMATIK UND INFORMATIK\\
@@ -276,7 +275,7 @@ Alternativ: X von Y lässt sich auf Basis von Z ermitteln~\citep{his}.
 
 
 \chapter*{Erklärung}
-Ich versichere, daß ich die vorliegende Arbeit selbständig und nur unter
+Ich versichere, dass ich die vorliegende Arbeit selbständig und nur unter
 Verwendung der angegebenen Quellen und Hilfsmittel angefertigt habe.
 
 \vspace{9cm}
@@ -288,5 +287,3 @@ Leipzig, den \today
 \makeatletter\@author\makeatother
 
 \end{document}
-
-
